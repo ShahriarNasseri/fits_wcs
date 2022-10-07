@@ -1,0 +1,36 @@
+[[package]]
+id = 4
+name = "idna"
+version = "3.3"
+source = "pypi+https://pypi.org/pypi/idna/3.3/json"
+dependencies = []
+
+[[package]]
+id = 1
+name = "requests"
+version = "2.28.1"
+source = "pypi+https://pypi.org/pypi/requests/2.28.1/json"
+dependencies = ["idna 3.3 pypi+https://pypi.org/pypi/idna/3.3/json", "charset-normalizer 2.1.1 pypi+https://pypi.org/pypi/charset-normalizer/2.1.1/json", "certifi 2022.6.15.1 pypi+https://pypi.org/pypi/certifi/2022.6.15.1/json", "urllib3 1.26.12 pypi+https://pypi.org/pypi/urllib3/1.26.12/json"]
+
+[[package]]
+id = 5
+name = "charset-normalizer"
+version = "2.1.1"
+source = "pypi+https://pypi.org/pypi/charset-normalizer/2.1.1/json"
+dependencies = []
+
+[[package]]
+id = 3
+name = "urllib3"
+version = "1.26.12"
+source = "pypi+https://pypi.org/pypi/urllib3/1.26.12/json"
+dependencies = []
+
+[[package]]
+id = 2
+name = "certifi"
+version = "2022.6.15.1"
+source = "pypi+https://pypi.org/pypi/certifi/2022.6.15.1/json"
+dependencies = []
+
+[metadata]
